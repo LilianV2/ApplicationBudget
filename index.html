@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<header>
+    <h1>Bievenue au Crédit Mutruelle ! #noPlagiat</h1>
+    <p>Avec nous, gérez vos dépenses comme il se doit !</p>
+</header>
+<div id="container">
+    <div id="mainExpenses">
+
+<!-- Here are all the input where the user can write each expenses he has made -->
+
+        <h2 id="warning">/!\ REMPLISSEZ PAR UN " 0 " MEME SI VOUS N'AVEZ RIEN PERCU /!\</h2>
+
+        <br><h2>Dépenses fixes :</h2><br>
+
+        <label for="Expense1">Loyer / charges</label>
+        <input type="text" class="expense" id="Expense1" required="required"><br>
+        <label for="Expense2">Remboursements de crédits</label>
+        <input type="text" class="expense" id="Expense2"><br>
+        <label for="Expense3">Eau / électricité / gaz</label>
+        <input type="text" class="expense" id="Expense3" required="required"><br>
+        <label for="Expense4">Téléphone / internet</label>
+        <input type="text" class="expense" id="Expense4" required="required"><br>
+        <label for="Expense5">Assurance habitation</label>
+        <input type="text" class="expense" id="Expense5"><br>
+        <label for="Expense6">Assurance véhicules</label>
+        <input type="text" class="expense" id="Expense6"><br>
+        <label for="Expense7">Mutuelle santé</label>
+        <input type="text" class="expense" id="Expense7"><br>
+        <label for="Expense8">Frais de garde</label>
+        <input type="text" class="expense" id="Expense8"><br>
+        <label for="Expense9">Impôts sur le revenu</label>
+        <input type="text" class="expense" id="Expense9"><br>
+        <label for="Expense10">Impôts locaux</label>
+        <input type="text" class="expense" id="Expense10"><br>
+
+        <br><h2>Dépenses courantes :</h2><br>
+
+        <label for="Expense11">Courses</label>
+        <input type="text" class="expense" id="Expense11"><br>
+        <label for="Expense12">Gazole/Transports</label>
+        <input type="text" class="expense" id="Expense12"><br>
+        <label for="Expense13">Sports/loisirs</label>
+        <input type="text" class="expense" id="Expense13"><br>
+
+        <br><h2>Dépenses occasionnelles :</h2><br>
+
+        <label for="Expense14">Sorties</label>
+        <input type="text" class="expense" id="Expense14"><br>
+        <label for="Expense15">Autre :</label>
+        <input type="text" class="expense" id="Expense15"><br>
+
+        <button id="totalExpenses">TOTAL</button>
+        <br>
+        <p id="displayTotalExpenses">Total des dépenses :</p>
+        <br>
+    </div>
+
+    <!-- Here are all the input where the user can write each income he has made -->
+
+    <div id="income">
+        <br><h2>Calcul de vos recettes :</h2><br>
+
+        <label for="income1">Salaire</label>
+        <input type="text" class="expense" id="income1"><br>
+        <label for="income2">Aides(allocations, ect...)</label>
+        <input type="text" class="expense" id="income2"><br>
+        <label for="income3">Rentes</label>
+        <input type="text" class="expense" id="income3"><br>
+
+        <button id="totalIncome">Total</button>
+        <br>
+        <p id="displayTotalIncome">Total des recettes : </p>
+        <br>
+    </div>
+
+    <!-- Here is the savings the user have made -->
+
+    <div id="savings">
+        <br><h2>Calcul de l'épargne :</h2><br>
+
+        <label for="savings1"></label>
+        <input type="text" class="expense" id="savings1"><br>
+
+        <button id="totalSavings">Total</button>
+        <br>
+        <p id="displayTotalSavings">Total épargné : </p>
+        <br>
+    </div>
+
+    <!-- And here is the total result -->
+
+    <div id="total">
+        <br><h2>Résultat total : </h2><br>
+
+        <button id="finalResult">Total</button>
+        <br>
+        <p id="displayFinalResult">Résultat : </p>
+        <br>
+    </div>
+
+    <div id="infoResult">
+
+    </div>
+</div>
+
+<script src="add.js"></script>
+</body>
+</html>
